@@ -6,39 +6,33 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
 				"inputs": [
 					{
-						"internalType": "address payable",
-						"name": "_to",
+						"internalType": "address",
+						"name": "",
 						"type": "address"
 					}
 				],
-				"name": "destroySmartContract",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "myAddressMapping",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "paused",
+				"name": "myMapping",
 				"outputs": [
 					{
 						"internalType": "bool",
@@ -51,20 +45,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "sendMoney",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "bool",
-						"name": "_paused",
-						"type": "bool"
-					}
-				],
-				"name": "setPaused",
+				"name": "setMyAddressTrue",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -72,12 +53,12 @@
 			{
 				"inputs": [
 					{
-						"internalType": "address payable",
-						"name": "_to",
-						"type": "address"
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
 					}
 				],
-				"name": "withdrawAllMoney",
+				"name": "setValue",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -96,7 +77,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"StartStopUpdateExample.sol": "test"
+			"SimpleMappingExample.sol": "SimpleMappingExaple"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -110,11 +91,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"StartStopUpdateExample.sol": {
-			"keccak256": "0x6e6aa5443577d04f8428b71b1aee7a660bd1794f23166bb2a118f7d7da5001c7",
+		"SimpleMappingExample.sol": {
+			"keccak256": "0x4f41bb7817e9c1d47f9fee3e250d2ee4ee8913b579808da82a79890a97fa29af",
 			"urls": [
-				"bzz-raw://b072cb6035161859be6232ecdebac1475d257f82d5e7098a36b27ce20915cfe0",
-				"dweb:/ipfs/QmPmR9vAHnW86DBnNRRAuMcbp85MfGrj6MCRq2GU6ZQuhW"
+				"bzz-raw://4c114f91d2b8f7943c894d0a577d2daff6910201fb63d88af6ef4637d5780cb1",
+				"dweb:/ipfs/QmbQESMcomBRZfRfSfjCV2XggXWKKbimxVkZh6sCvSPAKG"
 			]
 		}
 	},

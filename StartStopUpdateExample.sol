@@ -1,11 +1,11 @@
-pragma solidity ^0.5.13;
+pragma solidity >= 0.7.0 < 0.9.0;
 
 contract test {
     address owner;
 
     bool public paused; //초기값 거짓
 
-    constructor()public {
+    constructor() {
         owner = msg.sender; //스마트 게약을 배포하기 위해 트랜잭션을 만드는 주소
 
     } //생성자, 계약 배포 중 한번만 호출
