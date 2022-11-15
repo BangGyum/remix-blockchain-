@@ -13,30 +13,12 @@
 						"type": "address"
 					}
 				],
-				"name": "balacneReceived",
+				"name": "balanceReceived",
 				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "totalBalance",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "numPayments",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "getBalance",
-				"outputs": [
-					{
-						"internalType": "uint256",
+						"internalType": "uint64",
 						"name": "",
-						"type": "uint256"
+						"type": "uint64"
 					}
 				],
 				"stateMutability": "view",
@@ -44,7 +26,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "sendMoney",
+				"name": "receiveMoney",
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
@@ -55,24 +37,11 @@
 						"internalType": "address payable",
 						"name": "_to",
 						"type": "address"
-					}
-				],
-				"name": "withdrawAllMoney",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "_to",
-						"type": "address"
 					},
 					{
-						"internalType": "uint256",
+						"internalType": "uint64",
 						"name": "_amount",
-						"type": "uint256"
+						"type": "uint64"
 					}
 				],
 				"name": "withdrawMoney",
@@ -94,7 +63,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"MappingsStructExample.sol": "MappingsStructExample"
+			"ExceptionExample.sol": "ExceptionExample"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -108,11 +77,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"MappingsStructExample.sol": {
-			"keccak256": "0xd6d3177d2f7eae601ec4c7034a0f59c09deca144b0239052763480fa1d202811",
+		"ExceptionExample.sol": {
+			"keccak256": "0x28ba0d714d29eb98287e9573374ec62fff88cdab266c2c8ec2c42bdd7d8b421b",
 			"urls": [
-				"bzz-raw://d830ce136be2be9d4b62c95b3654056a9237dbd87b8da225458683c4095d4a91",
-				"dweb:/ipfs/QmRTt8Z2egy2hr77gTbB4JTW2VQWYAPs6MSCSojWQXFwZb"
+				"bzz-raw://c75705aacd5bd16fc95f6ebd532f8fbfd1427afcb46cca68063060ae5822bdc7",
+				"dweb:/ipfs/QmRcRybBV7pvRYewshtUbm9LafKJJwM3cjcbbj6xoAQhsZ"
 			]
 		}
 	},
