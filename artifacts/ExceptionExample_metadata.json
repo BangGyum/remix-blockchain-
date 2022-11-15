@@ -78,10 +78,10 @@
 	},
 	"sources": {
 		"ExceptionExample.sol": {
-			"keccak256": "0x28ba0d714d29eb98287e9573374ec62fff88cdab266c2c8ec2c42bdd7d8b421b",
+			"keccak256": "0x5450eee8a3149979944b2e8346841b69206aef099534e99e391d36152075dd44",
 			"urls": [
-				"bzz-raw://c75705aacd5bd16fc95f6ebd532f8fbfd1427afcb46cca68063060ae5822bdc7",
-				"dweb:/ipfs/QmRcRybBV7pvRYewshtUbm9LafKJJwM3cjcbbj6xoAQhsZ"
+				"bzz-raw://f43b89ae6f78e4b49e905f056eace0a753b391ccf8121f41f8ea29a69437fbcc",
+				"dweb:/ipfs/QmRAyRMc9JzS2q4q8dqFGwSW3s5wzM9NTtT9ApMKYGYyzT"
 			]
 		}
 	},
