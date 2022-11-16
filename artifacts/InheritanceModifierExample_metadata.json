@@ -97,10 +97,17 @@
 	},
 	"sources": {
 		"InheritanceModifierExample.sol": {
-			"keccak256": "0x0422cc9337e8f86dd7a4ffeb137eaa7b416d29f64ac22ee902e7e1650bb74335",
+			"keccak256": "0x94b3c82a09c3f02647940032a36cb1b861e895cd17e90bde1d5241f70d171370",
 			"urls": [
-				"bzz-raw://fb703855cf8d350caa49e6484bc91baf5a5a8615e86874fb5b2b0c6f0e0f5b7e",
-				"dweb:/ipfs/QmPf1S3ZTgiPLWdPWg1Tvco51G3BYujZ4KyVAbeBxbsQ7V"
+				"bzz-raw://4e8dd74b3b2612292e48603d73ffa0f203b05b7a6fbc17618c2e693b4f4ba37c",
+				"dweb:/ipfs/QmeyUKBoTwgrcutR4bkZfxqWTmW381xQXTLS6bisRNnDSQ"
+			]
+		},
+		"Owned.sol": {
+			"keccak256": "0xa470b0c27254635b400d19385bd1016381590cfd9713858186a5f1c049565590",
+			"urls": [
+				"bzz-raw://8ac9aa3d765f3a2101912ce4b4428cca5d857ff804889af839714aa685efbae1",
+				"dweb:/ipfs/QmRx5aucWaX4eL6e17pA7EgzGYGs7C5sY2dScvLj7mgeGE"
 			]
 		}
 	},
