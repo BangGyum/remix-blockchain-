@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "balance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "receiveMoney",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"homework1.sol": "homework"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Owned.sol": {
+			"keccak256": "0xa470b0c27254635b400d19385bd1016381590cfd9713858186a5f1c049565590",
+			"urls": [
+				"bzz-raw://8ac9aa3d765f3a2101912ce4b4428cca5d857ff804889af839714aa685efbae1",
+				"dweb:/ipfs/QmRx5aucWaX4eL6e17pA7EgzGYGs7C5sY2dScvLj7mgeGE"
+			]
+		},
+		"homework1.sol": {
+			"keccak256": "0x491a4253a46e8dcb368b6cbef966a875691694b5d14db7dbec32edb442f2f2f1",
+			"urls": [
+				"bzz-raw://4db4ed50dd4cd210dd8b3771da7dd363da29f7f405c133284e08af5fae1751d9",
+				"dweb:/ipfs/QmWGddgWuNPufLteF6VoPGCdtzMGtwnRUTq7TNmQmAeqy8"
+			]
+		}
+	},
+	"version": 1
+}

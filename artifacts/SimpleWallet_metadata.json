@@ -1,0 +1,74 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withDrawMoney",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SimpleWallet.sol": "SimpleWallet"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Owned.sol": {
+			"keccak256": "0xa470b0c27254635b400d19385bd1016381590cfd9713858186a5f1c049565590",
+			"urls": [
+				"bzz-raw://8ac9aa3d765f3a2101912ce4b4428cca5d857ff804889af839714aa685efbae1",
+				"dweb:/ipfs/QmRx5aucWaX4eL6e17pA7EgzGYGs7C5sY2dScvLj7mgeGE"
+			]
+		},
+		"SimpleWallet.sol": {
+			"keccak256": "0xddd26ff2e443540414b744137b250059cb0c5047f1feff794bb6355fe013e02e",
+			"urls": [
+				"bzz-raw://6ec21e53e8c616dacb850eaddbc4afc1e0b267c2b10a52153b27176bde4fa3d3",
+				"dweb:/ipfs/QmdEoQJDWBXmsXsQQH17CseMpsFvcd8fsrxuPvEhLFwky5"
+			]
+		}
+	},
+	"version": 1
+}
