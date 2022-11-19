@@ -57,13 +57,39 @@
 			},
 			{
 				"anonymous": false,
-				"inputs": [],
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
 				"name": "moneyReceive",
 				"type": "event"
 			},
 			{
 				"anonymous": false,
-				"inputs": [],
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_beneficiary",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
 				"name": "moneyWithdraw",
 				"type": "event"
 			},
@@ -183,7 +209,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"SimpleWalletGitAllowance.sol": "SimpleWalletGit2"
+			"SimpleWalletGitAllowanceRenounceOwner.sol": "SimpleWalletGit2"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -197,11 +223,18 @@
 		"remappings": []
 	},
 	"sources": {
-		"SimpleWalletGitAllowance.sol": {
-			"keccak256": "0x62524aef1a147c5efcc093b09032988c0372bfb6f5dd88f27750dd6fd3e9cf61",
+		"Allowance.sol": {
+			"keccak256": "0x033d67361c64a968884361c650a717e8ffeb9e9db0e0106a19e4ec4843cea0c2",
 			"urls": [
-				"bzz-raw://acae054640b5ef3f3b14344e29393e0662490fc4612a9050de01640e4f7e4cce",
-				"dweb:/ipfs/QmW4TGVp48AezD8Lc7SXhuBJuASvQLdPTJEbvGfsu1qBFy"
+				"bzz-raw://fcffc2fd3467a57135951dd81d7fbc3befbb3278c2b2c831ec718b7d86d54e6f",
+				"dweb:/ipfs/QmWqsjM78NdCaLFZy1NiuhN4xCPJzv6wp7vcE6MyE6tBrj"
+			]
+		},
+		"SimpleWalletGitAllowanceRenounceOwner.sol": {
+			"keccak256": "0xafc9e787a07556ac0ee3041c68091ee2c3d4e7bbd4bd4149e37ec99dcda967aa",
+			"urls": [
+				"bzz-raw://c7b11f1c3cc0e58915f14041c2f6fe43e47045eb8a4b941d78ed11d3fedce265",
+				"dweb:/ipfs/QmdbF5dpCYermnp6MhFvFBqdTYiZda6nSF4SRtsgaAqLm1"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {

@@ -23,25 +23,7 @@ contract Allowance is Ownable {
 
     function reduceAllowance(address _who, uint _amount) internal { //인출한 만큼 허용량 줄여주기
     emit AllowanceChanged(_who, msg.sender, allowance[_who], allowance[_who] - _amount);
-        allowance[_who] -= _amount;
+        allowance[_who] -= _amount; 
 
     }
-}
-
-contract SimpleWalletGit2 is Allowance {
-    event moneyReceive();
-    event moneyWithdraw();
-
-    function withDrawMoney(address payable _to, uint _amount) public ownerOrAllowed(_amount) { //소유자는 무제한 인출 가능, 소유자가 아닌경우 허용 인출만 가능
-        require(address(this).balance >= _amount, "there are not enough funds stored in the smart contract");
-        
-        if(isOwner()){
-            reduceAllowance(msg.sender, _amount);
-        }
-        _to.transfer(_amount);
-    }
-
-    fallback () external payable {}
-
-
 }

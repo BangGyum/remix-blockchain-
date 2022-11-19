@@ -149,7 +149,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"SimpleWalletGitAllowance.sol": "Allowance"
+			"Allowance.sol": "Allowance"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -163,11 +163,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"SimpleWalletGitAllowance.sol": {
-			"keccak256": "0x62524aef1a147c5efcc093b09032988c0372bfb6f5dd88f27750dd6fd3e9cf61",
+		"Allowance.sol": {
+			"keccak256": "0x033d67361c64a968884361c650a717e8ffeb9e9db0e0106a19e4ec4843cea0c2",
 			"urls": [
-				"bzz-raw://acae054640b5ef3f3b14344e29393e0662490fc4612a9050de01640e4f7e4cce",
-				"dweb:/ipfs/QmW4TGVp48AezD8Lc7SXhuBJuASvQLdPTJEbvGfsu1qBFy"
+				"bzz-raw://fcffc2fd3467a57135951dd81d7fbc3befbb3278c2b2c831ec718b7d86d54e6f",
+				"dweb:/ipfs/QmWqsjM78NdCaLFZy1NiuhN4xCPJzv6wp7vcE6MyE6tBrj"
 			]
 		},
 		"https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/access/Ownable.sol": {
