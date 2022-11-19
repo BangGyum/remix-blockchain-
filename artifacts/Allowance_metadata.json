@@ -56,22 +56,6 @@
 				"type": "event"
 			},
 			{
-				"anonymous": false,
-				"inputs": [],
-				"name": "moneyReceive",
-				"type": "event"
-			},
-			{
-				"anonymous": false,
-				"inputs": [],
-				"name": "moneyWithdraw",
-				"type": "event"
-			},
-			{
-				"stateMutability": "payable",
-				"type": "fallback"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "address",
@@ -140,24 +124,6 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address payable",
-						"name": "_to",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_amount",
-						"type": "uint256"
-					}
-				],
-				"name": "withDrawMoney",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -183,7 +149,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"SimpleWalletGitAllowance.sol": "SimpleWalletGit2"
+			"SimpleWalletGitAllowance.sol": "Allowance"
 		},
 		"evmVersion": "london",
 		"libraries": {},
