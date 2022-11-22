@@ -9,6 +9,19 @@
 				"inputs": [],
 				"stateMutability": "nonpayable",
 				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "isOwner",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -39,10 +52,10 @@
 	},
 	"sources": {
 		"Owned.sol": {
-			"keccak256": "0xa470b0c27254635b400d19385bd1016381590cfd9713858186a5f1c049565590",
+			"keccak256": "0xe096b919299f4f9a302d9dad362c0881af3c6cc59e4e421f464a329205146bfc",
 			"urls": [
-				"bzz-raw://8ac9aa3d765f3a2101912ce4b4428cca5d857ff804889af839714aa685efbae1",
-				"dweb:/ipfs/QmRx5aucWaX4eL6e17pA7EgzGYGs7C5sY2dScvLj7mgeGE"
+				"bzz-raw://72d2c86cabfe8adbbd841714fa987718206996184addd0a5c4eeeda40309aab3",
+				"dweb:/ipfs/QmfGU4WBb4cMopjqZGsK7uvkDCze4LP5MLAsjqRV9o1BBa"
 			]
 		}
 	},

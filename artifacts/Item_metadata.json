@@ -1,0 +1,120 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract ItemManager",
+						"name": "_parentContract",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_priceInWei",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"stateMutability": "nonpayable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "index",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "paidWei",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "priceInWei",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"_76_Item_ex.sol": "Item"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"_76_ItemManager_ex.sol": {
+			"keccak256": "0xb310679f983980ba8f32ae8c9a5eaff22c4c57e6e256c982d7f3237a835dc62c",
+			"urls": [
+				"bzz-raw://7b44808ce4f88ed9c3bd9725d49f21b12ea7f6840961492da5cddc6b8a5b8152",
+				"dweb:/ipfs/QmPs3vwRBcDoLhkY4nof34szJqtwX8zR2ZGFuKFCmKVJHh"
+			]
+		},
+		"_76_Item_ex.sol": {
+			"keccak256": "0xbec409ebcdd1a2ff0d789ea000aeb7ababdb2d796203c80a641ac78a06973c76",
+			"urls": [
+				"bzz-raw://cfe417ce8dec5d5cdd95afc39de7ea06b9f61ac60d166ba531195e8c441e773a",
+				"dweb:/ipfs/QmShFZMX69gXotDDfGvWyobBgz8kVhxHdR9t3WcbWXNg2C"
+			]
+		}
+	},
+	"version": 1
+}

@@ -14,5 +14,8 @@ contract Owned{ //이것을 상속, 확장 (솔리디티는 다중상속도 가�
         _; //밑에 createNewToken 함수 본문이 밑줄 위치로 복사됨
             //그런다음 함수 본문에 다시 복사됨
     }
+    function isOwner() public view returns(bool){
+        return (msg.sender== owner);
+    }
 
 } 
