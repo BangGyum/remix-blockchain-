@@ -1,0 +1,24 @@
+--113
+decentralised network -> eliminates data storage Risk
+
+탈중앙화 네트워크에 모든 데이터를 저장할 수 있다는 것, 탈중앙화인 블록체인
+    데이터 보관시 발생하는 모든 위험 제거
+    해커가 공격하려 해도 공격 지점을 정할수 없음
+    검색하는것 조차 연산 많이 필요
+    하나의 노드를 해킹한다 해도 평소처럼 정상적으로 거래가 됨
+
+탈중앙화 네트워크에는 데이터의 핵시 복사본이 없음
+
+거래 단계
+1. Transaction Process Begins - 거래 과정의 시작( 각 거래는 디지털로 서명 )
+2. Transaction is sent through miners - 그 거래는 블록체인상에 나타나기 전, 채굴자를 통해 전송
+                    채굴자는 거래가 실제 합법적인지 보장
+3. Transaction is broadcast to other nodes - 검증완료 후 네트워크의 다른 모든 노드에 블록을 전파
+4. Transaction is added to the chain - 거래가 합법적일 경우, 네트워크가 수용하고 체인에 연결
+5. Recipient receives what you sent - 수신자가 탈중앙화 블록체인을 통해 우리가 보낸걸 수신함. 매우빠름
+
+--114
+-노드가 많기때문에 완전한 시스템 장애가 발생할 가능성 낮음.
+-중앙화 시스템에 비해 해킹이 어려움 (중앙화된 소스가 없어서 공격 대상이 쉽지않음, 공격에 매우많은 연산 능력 필요.)
+-주요 의사 결정은 모든 노드가 관여하지만
+
